@@ -1,0 +1,31 @@
+[0m11:22:28.870526 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1075f5d30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10958f610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10958f890>]}
+
+
+============================== 11:22:28.881699 | 5c4a3307-2598-449c-9ed0-19dce1ca8eb6 ==============================
+[0m11:22:28.881699 [info ] [MainThread]: Running with dbt=1.7.19
+[0m11:22:28.882057 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': '/Users/eve/.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt init', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m11:22:28.882360 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/Users/eve/.dbt')}
+[0m11:22:28.882522 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m11:23:20.065544 [debug] [MainThread]: Starter project path: /Volumes/Data/FORMATION_DATA/DBT_DEMO/.venv/lib/python3.13/site-packages/dbt/include/starter_project
+[0m11:23:20.077316 [info ] [MainThread]: 
+Your new dbt project "DBT_projet" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:23:20.077881 [info ] [MainThread]: Setting up your profile.
+[0m11:23:31.063680 [info ] [MainThread]: Profile DBT_projet written to /Users/eve/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m11:23:31.065489 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 62.225643, "process_user_time": 0.988749, "process_kernel_time": 0.128724, "process_mem_max_rss": "127614976", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m11:23:31.065782 [debug] [MainThread]: Command `dbt init` succeeded at 11:23:31.065699 after 62.23 seconds
+[0m11:23:31.065971 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104d822c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109795010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1098de470>]}
+[0m11:23:31.066162 [debug] [MainThread]: Flushing usage events
